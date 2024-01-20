@@ -13,23 +13,21 @@ const About = () => {
           </p>
         </div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          I am a passionate web developer with a diverse background in academic
+          research. I find immense joy in exploring the dynamic relationship
+          between programming languages and technology, constantly seeking
+          innovative ways to design and shape the digital landscape. My journey
+          into programming began while analyzing and visualizing complex
+          research data, and I was instantly captivated by its transformative
+          power. This profound interest led me to embark on a career path where
+          I could refine my natural problem-solving abilities through the medium
+          of programming.
         </p>
         <br />
         <p className="text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Beyond my professional endeavors, I am fortunate to have a loving and
+          supportive wife, and I take great pride in being a dedicated father to
+          my three wonderful sons.
         </p>
       </div>
     </div>

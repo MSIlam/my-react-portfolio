@@ -1,0 +1,37 @@
+/* Add this CSS for modal styling */
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1a202c; /* Dark background color */
+    border: 1px solid #2d3748;
+    border-radius: 8px;
+    outline: none;
+    padding: 20px;
+    width: 50%;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark overlay */
+  }
+  
+  .modal-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .project-image {
+    max-width: 30%;
+    /* margin-right: 20px; */
+    border-radius: 8px;
+  }
+  
+  .project-details {
+    flex-grow: 1;
+    color: black; /* Text color */
+  }
+  
+  /* Additional styling as needed */
+  
