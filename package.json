@@ -1,5 +1,5 @@
 {
-  "name": "my-react-portfolio",
+  "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://msilam.github.io/my-react-portfolio",
@@ -13,7 +13,7 @@
     "react-modal": "^3.16.1",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.9.0",
-    "web-vitals": "^2.1.4",
+    "web-vitals": "^2.1.4"
     
 
   },
