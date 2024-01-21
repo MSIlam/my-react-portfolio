@@ -38,7 +38,7 @@ const Home = () => {
           <img
             src={myPhoto}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-full mx-auto w-11/12 md:w-3/4 lg:w-2/3"
           />
         </div>
       </div>
