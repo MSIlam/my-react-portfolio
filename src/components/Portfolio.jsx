@@ -118,7 +118,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen pt-20"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -128,7 +128,7 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 px-12 sm:px-0">
           {portfolios.map(
             ({
               id,
@@ -161,7 +161,7 @@ const Portfolio = () => {
                     href={href2}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300"
+                    className="w-1/2 px-10 py-1 m-1 duration-200 hover:scale-105 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300"
                   >
                     Demo
                   </a>
@@ -169,7 +169,7 @@ const Portfolio = () => {
                     href={href1}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300"
+                    className="w-1/2 px-10 py-1 m-1 duration-200 hover:scale-105 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300"
                   >
                     GitHub
                   </a>
@@ -226,3 +226,5 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
+// <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0"></div>
