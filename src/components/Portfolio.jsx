@@ -89,7 +89,7 @@ const Portfolio = () => {
         "typedoc",
       ],
       href1: "https://github.com/MSIlam/myFlix-Angular-client.git",
-      href2: "https://msilam.github.io/myFlix-Angular-client/",
+      href2: "https://my-flix-angular-client-rl5m7x43i.vercel.app",
     },
     {
       id: 6,
