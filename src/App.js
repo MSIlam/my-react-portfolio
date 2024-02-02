@@ -10,11 +10,36 @@ function App() {
   return (
     <div>
       <NavBar />
-      <Home />
-      <About />
-      <Portfolio />
-      <Skills />
-      <Contact />
+      <div
+        name="home"
+        className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      >
+        <Home />
+      </div>
+      <div
+        name="about"
+        className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      >
+        <About />
+      </div>
+      <div
+        name="portfolio"
+        className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      >
+        <Portfolio />
+      </div>
+      <div
+        name="skills"
+        className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      >
+        <Skills />
+      </div>
+      <div
+        name="contact"
+        className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white"
+      >
+        <Contact />
+      </div>
       <SocialLinks />
     </div>
   );
